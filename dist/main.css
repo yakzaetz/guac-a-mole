@@ -105,7 +105,6 @@ body {
 .avocado {
   width: 20%;
   height: 30%;
-  z-index: -1;
   opacity: 0;
   transform: translateY(150);
   transition: transform 3s ease, opacity 1s;
