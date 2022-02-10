@@ -108,13 +108,13 @@ class Game {
                 const lowest_nav = document.querySelector(".lowest-nav");
                 setTimeout(() => {
                     lowest_nav.innerText = "Hit spacebar to restart the goodness :)";
+                    this.timeleft = 10;
+                    this.score = 0;
+                    const score = document.querySelector(".score");
+                    score.innerText = `Score: ${this.score}`;
+                    document.querySelector(".timer").innerText = `Timer: ${this.timeleft}`;
                 }, 1000);
                 this.play = false;
-                this.timeleft = 10;
-                this.score = 0;
-                const score = document.querySelector(".score");
-                score.innerText = `Score: ${this.score}`;
-                document.querySelector(".timer").innerText = `Timer: ${this.timeleft}`;
             }
             else if (this.timeleft > 0) this.timeleft -= 1;
             document.querySelector(".timer").innerText = `Timer: ${this.timeleft}`;

@@ -59,16 +59,15 @@ body {
 .gam {
   display: flex;
   width: 70vw;
-  height: 80vh;
-  border: 5px solid greenyellow;
+  height: 75vh;
   margin: auto;
+  margin-bottom: 5vh;
   flex-wrap: wrap;
   align-content: space-between;
   box-sizing: border-box;
 }
 
 .list {
-  border: 1px solid red;
   height: 100%;
   width: 100%;
   margin: auto;
@@ -79,7 +78,6 @@ body {
   float: left;
   width: 33.3%;
   height: 33.3%;
-  border: 3px solid purple;
   box-sizing: border-box;
   background-color: transparent;
   display: flex;
@@ -98,7 +96,6 @@ body {
   bottom: 0;
   height: 50%;
   width: 100%;
-  border: turquoise 2px solid;
   padding-left: 2px;
   padding-right: 2px;
   box-sizing: border-box;
@@ -123,14 +120,13 @@ body {
 
 nav {
   width: 100vw;
-  height: 20vh;
-  border: 5px solid purple;
+  height: 17vh;
+  margin-top: 3vh;
   box-sizing: border-box;
   background-image: linear-gradient(to bottomright, #347c3b, #13a808);
 }
 
 .top-nav {
-  border: 12px double yellow;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,7 +141,6 @@ nav {
   justify-content: center;
   margin-bottom: 1%;
   box-sizing: border-box;
-  border: 2px dotted blue;
 }
 
 .information {
@@ -154,13 +149,11 @@ nav {
   justify-content: center;
   font-size: 35px;
   box-sizing: border-box;
-  border: 2px solid blueviolet;
 }
 
 .bottom-nav {
   display: flex;
   justify-content: space-between;
-  border: 10px double gold;
   margin: 25px;
 }
 
@@ -169,18 +162,15 @@ nav {
   display: flex;
   justify-content: flex-end;
   gap: 20%;
-  border: 2px solid grey;
   align-items: center;
 }
 
 .pins {
-  border: 2px solid hotpink;
   width: 50%;
   align-items: center;
 }
 
 .lowest-nav {
-  border: solid 2px burlywood;
   text-align: center;
   font-family: "Architects Daughter", cursive;
   font-size: 25px;
