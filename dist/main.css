@@ -178,3 +178,12 @@ nav {
   width: 50%;
   align-items: center;
 }
+
+.lowest-nav {
+  border: solid 2px burlywood;
+  text-align: center;
+  font-family: "Architects Daughter", cursive;
+  font-size: 25px;
+  color: darkgreen;
+  margin-bottom: 10px;
+}

@@ -104,12 +104,15 @@ class Game {
         this.downloadTimer = setInterval(()=> {
             if (this.timeleft <= 0) {
                 clearInterval(this.downloadTimer);
-                clearInterval(this.gameStart)
-                alert("GAME OVER")
+                clearInterval(this.gameStart);
+                const lowest_nav = document.querySelector(".lowest-nav");
+                setTimeout(() => {
+                    lowest_nav.innerText = "Hit spacebar to restart the goodness :)";
+                }, 1000);
                 this.play = false;
                 this.timeleft = 10;
                 this.score = 0;
-                const score = document.querySelector(".score")
+                const score = document.querySelector(".score");
                 score.innerText = `Score: ${this.score}`;
                 document.querySelector(".timer").innerText = `Timer: ${this.timeleft}`;
             }
@@ -152,12 +155,17 @@ class Game {
     // 3. set this.play = true in start game
     // 4. change this.timeleft = 60 in constructor
     
-    spaceBar(e){ 
+    spaceBar(e){
+        const lowest_nav = document.querySelector(".lowest-nav")
+        // debugger
         if (!this.play){
             this.restartGame();
+            lowest_nav.innerText = "Hit spacebar to pause the fun :)"
         }else if(this.play && !this.pause){
+            lowest_nav.innerText = "Hit spacebar to continue playing :)"
             this.pauseGame();
         }else if(this.play && this.pause){
+            lowest_nav.innerText = "Hit spacebar to pause the fun :)"
             this.resumeGame();
         }
     }
