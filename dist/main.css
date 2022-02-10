@@ -1,3 +1,6 @@
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/reset.css ***!
+  \****************************************************************************************************/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,6 +49,130 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{background-image:linear-gradient(to bottom right, #bbdbbe, #deebdd)}.gam{display:flex;width:70vw;height:75vh;margin:auto;margin-bottom:5vh;flex-wrap:wrap;align-content:space-between;box-sizing:border-box}.list{height:100%;width:100%;margin:auto;box-sizing:border-box}.flower-pot{float:left;width:33.3%;height:33.3%;box-sizing:border-box;background-color:transparent;display:flex;align-items:center;justify-content:flex-end;flex-direction:column;position:relative}.flower-pot>img{object-fit:cover}.soil{position:absolute;bottom:0;height:50%;width:100%;padding-left:2px;padding-right:2px;box-sizing:border-box;z-index:1}.avocado{width:20%;height:30%;opacity:0;transform:translateY(150);transition:transform 3s ease,opacity 1s}.new-avocado{width:20%;height:30%;transform:translateY(-175px);transition:transform 1s ease,opacity .5s}nav{width:100vw;height:17vh;margin-top:3vh;box-sizing:border-box;background-image:linear-gradient(to bottomright, #347c3b, #13a808)}.top-nav{display:flex;flex-direction:column;justify-content:center;box-sizing:border-box}.title{font-size:50px;color:#006400;font-family:"Architects Daughter",cursive;display:flex;justify-content:center;margin-bottom:1%;box-sizing:border-box}.information{display:flex;gap:10%;justify-content:center;font-size:35px;box-sizing:border-box}.bottom-nav{display:flex;justify-content:space-between;margin:25px}.creds{width:50%;display:flex;justify-content:flex-end;gap:20%;align-items:center}.pins{width:50%;align-items:center}.lowest-nav{text-align:center;font-family:"Architects Daughter",cursive;font-size:25px;color:#006400;margin-bottom:10px}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
+body {
+  background-image: linear-gradient(to bottom right, #bbdbbe, #deebdd);
+}
 
-/*# sourceMappingURL=main.css.map*/
+.gam {
+  display: flex;
+  width: 70vw;
+  height: 75vh;
+  margin: auto;
+  margin-bottom: 5vh;
+  flex-wrap: wrap;
+  align-content: space-between;
+  box-sizing: border-box;
+}
+
+.list {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.flower-pot {
+  float: left;
+  width: 33.3%;
+  height: 33.3%;
+  box-sizing: border-box;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+}
+
+.flower-pot > img {
+  object-fit: cover;
+}
+
+.soil {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.avocado {
+  width: 20%;
+  height: 30%;
+  opacity: 0;
+  transform: translateY(150);
+  transition: transform 3s ease, opacity 1s;
+}
+
+.new-avocado {
+  width: 20%;
+  height: 30%;
+  transform: translateY(-175px);
+  transition: transform 1s ease, opacity 0.5s;
+}
+
+nav {
+  width: 100vw;
+  height: 17vh;
+  margin-top: 3vh;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottomright, #347c3b, #13a808);
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 50px;
+  color: darkgreen;
+  font-family: "Architects Daughter", cursive;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  box-sizing: border-box;
+}
+
+.information {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  font-size: 35px;
+  box-sizing: border-box;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.creds {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20%;
+  align-items: center;
+}
+
+.pins {
+  width: 50%;
+  align-items: center;
+}
+
+.lowest-nav {
+  text-align: center;
+  font-family: "Architects Daughter", cursive;
+  font-size: 25px;
+  color: darkgreen;
+  margin-bottom: 10px;
+}

@@ -17,21 +17,6 @@ class Board {
         }
         return grid;
     }
-    // getDataPos(pos){
-    //     this.grid[pos];
-    // }
-
-    // setDataPos(pos, v){
-    //     // this.grid[pos] = v
-    // }
-
-    // showAvo(pos, time){
-    //     this.setDataPos(pos, true);
-    //     setTimeout(() => {
-    //         this.setDataPos(pos, null);
-    //     }, time);
-    // }
-
 }
 
 export default Board
