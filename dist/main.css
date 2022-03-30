@@ -106,14 +106,14 @@ body {
   width: 20%;
   height: 30%;
   opacity: 0;
-  transform: translateY(150);
+  transform: translateY(25%);
   transition: transform 3s ease, opacity 1s;
 }
 
 .new-avocado {
   width: 20%;
   height: 30%;
-  transform: translateY(-175px);
+  transform: translateY(-170%);
   transition: transform 1s ease, opacity 0.5s;
 }
 
