@@ -139,6 +139,7 @@ class Game {
         // this.guacTheCado();
         this.play = true;
     }
+
 }
 
 export default Game

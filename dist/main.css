@@ -56,17 +56,6 @@ body {
   background-image: linear-gradient(to bottom right, #bbdbbe, #deebdd);
 }
 
-.gam {
-  display: flex;
-  width: 70vw;
-  height: 75vh;
-  margin: auto;
-  margin-bottom: 5vh;
-  flex-wrap: wrap;
-  align-content: space-between;
-  box-sizing: border-box;
-}
-
 .list {
   height: 100%;
   width: 100%;
@@ -153,6 +142,7 @@ nav {
 .bottom-nav {
   display: flex;
   justify-content: space-between;
+  border: 10px double gold;
   margin: 25px;
 }
 
@@ -161,12 +151,28 @@ nav {
   display: flex;
   justify-content: flex-end;
   gap: 20%;
+  border: 5px solid #d60e0e;
   align-items: center;
+}
+.creds a {
+  text-decoration: none;
 }
 
 .pins {
+  border: 2px solid hotpink;
   width: 50%;
   align-items: center;
+}
+
+.gam {
+  display: flex;
+  width: 70vw;
+  height: 75vh;
+  margin: auto;
+  margin-bottom: 5vh;
+  flex-wrap: wrap;
+  align-content: space-between;
+  box-sizing: border-box;
 }
 
 .lowest-nav {
@@ -175,4 +181,33 @@ nav {
   font-size: 25px;
   color: darkgreen;
   margin-bottom: 10px;
+}
+
+.modal-container {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-container.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  background-color: white;
+  text-align: center;
+  width: 700px;
+  max-width: 100vw;
+  height: 250px;
+  padding: 35px, 45px;
+  border-radius: 10px;
 }

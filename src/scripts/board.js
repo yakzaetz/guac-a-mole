@@ -17,6 +17,8 @@ class Board {
         }
         return grid;
     }
+
+    
 }
 
 export default Board
