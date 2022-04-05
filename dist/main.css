@@ -59,7 +59,9 @@ body {
 .list {
   height: 100%;
   width: 100%;
-  margin: auto;
+  padding: 3px;
+  bottom: 0;
+  margin-top: 8%;
   box-sizing: border-box;
 }
 
@@ -108,8 +110,7 @@ body {
 
 nav {
   width: 100vw;
-  height: 17vh;
-  margin-top: 3vh;
+  height: 14vh;
   box-sizing: border-box;
   background-image: linear-gradient(to bottomright, #347c3b, #13a808);
 }
@@ -137,30 +138,35 @@ nav {
   justify-content: center;
   font-size: 35px;
   box-sizing: border-box;
+  font-family: "Architects Daughter", "cursive";
+  color: darkgreen;
 }
 
 .bottom-nav {
   display: flex;
   justify-content: space-between;
-  border: 10px double gold;
   margin: 25px;
 }
 
 .creds {
-  width: 50%;
+  width: 25%;
   display: flex;
   justify-content: flex-end;
+  padding-left: 30px;
   gap: 20%;
-  border: 5px solid #d60e0e;
   align-items: center;
 }
 .creds a {
   text-decoration: none;
+  color: darkgreen;
+  font-family: "Architects Daughter", "cursive";
 }
 
 .pins {
-  border: 2px solid hotpink;
-  width: 50%;
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 30px;
   align-items: center;
 }
 
@@ -177,10 +183,14 @@ nav {
 
 .lowest-nav {
   text-align: center;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Architects Daughter", "cursive";
   font-size: 25px;
+  width: 50%;
   color: darkgreen;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-container {
@@ -189,12 +199,12 @@ nav {
   width: 100vw;
   top: 0;
   left: 0;
-  background-color: aliceblue;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
   pointer-events: none;
+  z-index: 10;
 }
 
 .modal-container.show {
@@ -208,6 +218,31 @@ nav {
   width: 700px;
   max-width: 100vw;
   height: 250px;
-  padding: 35px, 45px;
+  padding: 70px, 65px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Architects Daughter";
+}
+.modal > h1 {
+  font-size: 26px;
+}
+.modal > p {
+  font-size: 16px;
+}
+
+#company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  font-family: "Architects Daughter", "cursive";
+  color: darkgreen;
+  background: none;
+  font-size: large;
+  cursor: pointer;
 }
