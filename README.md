@@ -6,7 +6,7 @@
 * Functionality/MVP
 * WireFrames
 * Technologies/Libraries
-* Schedule
+* Live link https://yakzaetz.github.io/guac-a-mole/
 
 ### Goal
 The goal of the game is to get as many point as possible in alotted time for each level. Getting points is achieved by whacking (clicking) the avocados that pop up from flower pots. You need to hit (click) the avocado after it appears and before it dissapears. In the first level you need to achieve 10 point in 25 seconds. From level to level the points requirement will increase and the time that the avocados will be available to hit will decrease. If you do not achieve the points target you lose. 
@@ -18,12 +18,10 @@ When an avocado appears from a flower pot, click on it to score a point.
  # Functionality & MVP's
 In Guac-A-Mole, the player will be able:
  * Click on avocados to score point
- * View how much time if left to current level
- * Use a toggle button to play and pause the game or press spacebar
- * View how many point they currently have
- * View what level they are up to
- * View how many points needed to pass the level (goal)
-<!--  * if achieved the goal before the time is up th enext level will begin automatically -->
+ * View how much time if left
+ * Use spacebar as a toggle to play and pause the game
+ * View how many points they currently have
+
 
 In addition the game will have:
  * a modal with the instructions
